@@ -10,14 +10,14 @@ const personalProfile={
 }
 
 //different printing methods:
-/*
+
 console.log(personalProfile)
 console.log(personalProfile.firstName+ ' ' +personalProfile.lastName)
 console.log(personalProfile.age)
 console.log(personalProfile["favouriteLanguage"])
 console.log(personalProfile["contactInfo"])
 console.log(personalProfile["contactInfo"]["email"])
-console.log(personalProfile["contactInfo"].phone)*/
+console.log(personalProfile["contactInfo"].phone)
 
 //adding 'occupation' property to the personalProfile object 
 personalProfile.occupation="Developer"
